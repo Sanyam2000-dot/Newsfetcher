@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #6B7280;
+}
+
+body {
+    margin: 0rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-list {
+    text-align: right;
+    padding: 1rem 0rem;
+}
+
+.nav-brand {
+    text-align: left;
+    font-size: 2rem;
+    padding: 0.5rem 1rem 0.2rem 1rem;
+    font-weight: bold;
+    color: white;
+}
+
+.list-inline {
+    display: inline;
+    padding: 1rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+.container {
+    padding: 2px 16px;
+}
