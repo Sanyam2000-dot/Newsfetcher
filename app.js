@@ -3,11 +3,10 @@ var btn = document.querySelector("#input-btn")
 var image = document.querySelector(".card-image").getAttribute("src")
 var content = document.querySelector(".card-content")
 
-var serverURL = 'http://newsapi.org/v2/everything?q='
+var serverURL = 'http://newsapi.org/v2/top-headlines?q='
 
 function getURL(input) {
-    return serverURL + input + '&from=2021-01-07&sortBy=publishedAt' +
-        'apiKey=71506899bdec46828bd4b311b3cb354b';
+    return serverURL + input + '&country=us&apiKey=b394bfc8816445efa7a1d7387092fc28';
 }
 console.log(getURL("one"));
 
